@@ -59,6 +59,7 @@ Color.prototype.white = function (strong = false) {
 
 Color.prototype.push = function(color) {
   this.children.push(color);
+  return this;
 };
 
 module.exports = Color;
