@@ -1,0 +1,20 @@
+{
+  "name": "logthatcolor",
+  "version": "1.0.0",
+  "description": "Helps to add color on log strings",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofelipedidio/npm-color.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "Felipe Didio",
+  "displayName": "Colors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ofelipedidio/npm-color/issues"
+  },
+  "homepage": "https://github.com/ofelipedidio/npm-color#readme"
+}
