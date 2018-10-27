@@ -18,7 +18,7 @@ Color.prototype.toString = function () {
 };
 
 Color.prototype.black = function (strong = false) {
-  this.fg = '\x0b[' + (strong == true ? '9' : '3') + '1m';
+  this.fg = '\x1b[' + (strong == true ? '9' : '3') + '0m';
   return this;
 };
 
@@ -28,32 +28,32 @@ Color.prototype.red = function (strong = false) {
 };
 
 Color.prototype.green = function (strong = false) {
-  this.fg = '\x2b[' + (strong == true ? '9' : '3') + '1m';
+  this.fg = '\x1b[' + (strong == true ? '9' : '3') + '2m';
   return this;
 };
 
 Color.prototype.yellow = function (strong = false) {
-  this.fg = '\x3b[' + (strong == true ? '9' : '3') + '1m';
+  this.fg = '\x1b[' + (strong == true ? '9' : '3') + '3m';
   return this;
 };
 
 Color.prototype.blue = function (strong = false) {
-  this.fg = '\x4b[' + (strong == true ? '9' : '3') + '1m';
+  this.fg = '\x1b[' + (strong == true ? '9' : '3') + '4m';
   return this;
 };
 
 Color.prototype.magenta = function (strong = false) {
-  this.fg = '\x5b[' + (strong == true ? '9' : '3') + '1m';
+  this.fg = '\x1b[' + (strong == true ? '9' : '3') + '5m';
   return this;
 };
 
 Color.prototype.cyan = function (strong = false) {
-  this.fg = '\x6b[' + (strong == true ? '9' : '3') + '1m';
+  this.fg = '\x1b[' + (strong == true ? '9' : '3') + '6m';
   return this;
 };
 
 Color.prototype.white = function (strong = false) {
-  this.fg = '\x7b[' + (strong == true ? '9' : '3') + '1m';
+  this.fg = '\x1b[' + (strong == true ? '9' : '3') + '7m';
   return this;
 };
 

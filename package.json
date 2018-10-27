@@ -1,6 +1,6 @@
 {
   "name": "logthatcolor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helps to add color on log strings",
   "main": "index.js",
   "repository": {
